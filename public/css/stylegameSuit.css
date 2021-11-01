@@ -1,0 +1,78 @@
+    /* Header */
+    
+    .header {
+        background-color: #9C835F;
+    }
+    
+    #head1 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 98px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #724C21
+    }
+    
+    #head2 {
+        padding-top: 1em;
+    }
+    
+    #head3 {
+        padding-top: 0.75em;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 49px;
+        color: #F9B23D;
+    }
+    /* Image Batu Kertas Guntuing */
+    
+    .batu,
+    .kertas,
+    .gunting {
+        transition: 2s;
+        cursor: pointer;
+    }
+    
+    .gunting:hover,
+    .batu:hover,
+    .kertas:hover,
+    .active {
+        box-shadow: 0 0 10px 10px #C4C4C4
+    }
+    /* Middle */
+    
+    .Versus {
+        font-size: 5rem;
+        color: red;
+        text-align: center;
+    }
+    
+    #refresh {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    /* Player & Com */
+    
+    .player,
+    .com {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 49px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    
+    .section {
+        background-color: #9C835F;
+        height: 100%;
+    }

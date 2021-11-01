@@ -1,0 +1,188 @@
+.jumbotron1 {
+    background-image: url(/assets/image/main-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.nav-item {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 35px;
+}
+
+.nav-item2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 35px;
+}
+
+.jumbotron2 {
+    background-image: url(/assets/image/the-games-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+    text-align: justify;
+}
+
+.carousel-item {
+    padding-inline-start: 40%;
+}
+
+.carousel-indicators {
+    padding-inline-start: 29%;
+}
+
+.jumbotron3 {
+    background-image: url(/assets/image/features.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30%;
+    padding-bottom: 20%;
+    text-align: right;
+}
+
+
+/* Timeline */
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 50%;
+    z-index: 400;
+}
+
+ul.timeline>li {
+    margin: 0px 0;
+    padding-right: 20px;
+}
+
+ul.timeline>li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+/* PAGE 4 */
+
+.leadpage4 {
+    text-align: center;
+    color: white;
+}
+
+.jumbotron4 {
+    background-image: url(/assets/image/requirements.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30%;
+    padding-bottom: 20%;
+}
+
+.table {
+    width: fit-content;
+}
+
+
+/* PAGE 5 */
+
+.jumbotron5 {
+    background-image: url(/assets/image/image1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.Title5 {
+    padding-left: 90px;
+}
+
+
+/* PAGE 6 */
+
+.jumbotron6 {
+    background-image: url(/assets/image/image1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30%;
+    padding-bottom: 20%;
+}
+
+
+/* News Letter */
+
+.newsletter {
+    padding: 80px 0;
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px;
+}
+
+.newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 0;
+}
+
+.newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+}
+
+.newsletter .content .btn {
+    min-height: 50px;
+    border-radius: 0;
+    background: #e7c607;
+    color: #fff;
+    font-weight: 600;
+}
+
+.img6 {
+    padding-left: 300px;
+}

@@ -1,0 +1,9 @@
+[{
+        "email": "player@mail.com",
+        "password": "qwerty"
+    },
+    {
+        "email": "game@mail.com",
+        "pasword": "123456"
+    }
+]

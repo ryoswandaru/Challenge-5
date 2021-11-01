@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 4</title>
+    <link rel="stylesheet" href="./assets/bootstrap-5.1.1-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="/css/stylegameSuit.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1 btn-lg" id="head1" role="button" onclick="goBack()" href="./index.html">
+                    < </div>
+                        <div class="col-md-1" id="head2"><img src="./assets/image/logo 1.png" alt="Logo"></div>
+                        <div class="col-md-10" id="head3">
+                            <h1>ROCK PAPER SCISSORS</h1>
+                        </div>
+                </div>
+            </div>
+
+    </header>
+
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <!-- KIRI -->
+                <div class="col-md-4">
+                    <p class="player">Player</p>
+                    <ul>
+                        <ul>
+                            <img src="./assets/image/batu.png" class="batu" width="50" height="60">
+                        </ul>
+                        <br>
+                        <br>
+                        <ul>
+                            <img src="./assets/image/kertas.png" class="kertas" width="50" height="60">
+                        </ul>
+                        <br>
+                        <br>
+                        <ul>
+                            <img src="./assets/image/gunting.png" class="gunting" width="50" height="60">
+                        </ul>
+                    </ul>
+                </div>
+                <!-- TENGAH -->
+                <div class="col-md-4">
+                    <h1 class="Versus">VS</h1>
+
+                    <div class="container" id="refresh" onclick="Refresh()">
+                        <!--// Any content in here will be centered.-->
+                        <img src="./assets/image/refresh.png" alt="" width="50" height="60" />
+                    </div>
+
+                </div>
+                <!-- KANAN -->
+                <div class="col-md-4">
+                    <p class="com">COM</p>
+                    <ul>
+                        <ul>
+                            <img src="./assets/image/batu.png" class="comBatu" width="50" height="60">
+                        </ul>
+                        <br>
+                        <br>
+                        <ul>
+                            <img src="./assets/image/kertas.png" class="comKertas" width="50" height="60">
+                        </ul>
+                        <br>
+                        <br>
+                        <ul>
+                            <img src="./assets/image/gunting.png" class="comGunting" width="50" height="60">
+                        </ul>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
